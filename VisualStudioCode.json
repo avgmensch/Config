@@ -1,0 +1,14 @@
+{
+    "window.zoomLevel": 2,
+    "workbench.iconTheme": "material-icon-theme",
+    "files.autoSave": "onFocusChange",
+    "C_Cpp.codeAnalysis.updateDelay": 0,
+    "hexeditor.columnWidth": 16,
+    "hexeditor.showDecodedText": true,
+    "hexeditor.defaultEndianness": "little",
+    "hexeditor.inspectorType": "aside",
+    "git.confirmSync": false,
+    "cSpell.userWords": [
+        "hexeditor"
+    ]
+}
