@@ -24,3 +24,6 @@ Set-Alias -Name "c" -Value "code.cmd"
 $DOTNET_ROOT = "$Home\AppData\Local\Programs\.NET"
 $env:PATH = $DOTNET_ROOT + ";" + $env:PATH
 $env:DOTNET_CLI_TELEMETRY_OPTOUT = 1
+## dotnet dev-certs https --clean
+## https://learn.microsoft.com/en-us/aspnet/core/security/enforcing-ssl
+$env:DOTNET_GENERATE_ASPNET_CERTIFICATE = false
