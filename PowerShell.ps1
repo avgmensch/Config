@@ -21,8 +21,8 @@ Set-Alias -Name "e" -Value "explorer.exe"
 Set-Alias -Name "c" -Value "code.cmd"
 
 # .NET setup
-$DOTNET_ROOT = "$Home\AppData\Local\Programs\.NET"
-$env:PATH = $DOTNET_ROOT + ";" + $env:PATH
+$env:DOTNET_ROOT = "$Home\AppData\Local\Programs\.NET"
+$env:PATH = $env:DOTNET_ROOT + ";" + $env:PATH
 $env:DOTNET_CLI_TELEMETRY_OPTOUT = 1
 ## dotnet dev-certs https --clean
 ## https://learn.microsoft.com/en-us/aspnet/core/security/enforcing-ssl
