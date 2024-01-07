@@ -1,14 +1,60 @@
 {
+    // Display Settings
     "window.zoomLevel": 2,
     "workbench.iconTheme": "material-icon-theme",
+    "editor.wordWrap": "on",
+    
+    // File Settings
     "files.autoSave": "onFocusChange",
+    "extensions.ignoreRecommendations": true,
+
+    // Markdown Settings
+    "[markdown]": {
+        "editor.rulers": [80],
+        "editor.tabSize": 4,
+        "editor.wordWrap": "wordWrapColumn",
+        "editor.wordWrapColumn": 80
+    },
+
+    // C And C++ Settings
     "C_Cpp.codeAnalysis.updateDelay": 0,
+    "C_Cpp.default.compilerPath": "$Home\\AppData\\Local\\Programs\\w64devkit\\bin\\gcc.exe",
+    "[c]": {
+        "editor.rulers": [100],
+        "editor.tabSize": 4,
+        "editor.wordWrap": "wordWrapColumn",
+        "editor.wordWrapColumn": 100,
+    },
+    "[cpp]": {
+        "editor.rulers": [100],
+        "editor.tabSize": 4,
+        "editor.wordWrap": "wordWrapColumn",
+        "editor.wordWrapColumn": 100,
+    },
+
+    // Hex-Editor Settings
     "hexeditor.columnWidth": 16,
     "hexeditor.showDecodedText": true,
     "hexeditor.defaultEndianness": "little",
     "hexeditor.inspectorType": "aside",
+
+    // Git Settings
     "git.confirmSync": false,
+
+    //  Json And Jsonc Settings
+    "[json]": {
+        "editor.tabSize": 2,
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[jsonc]": {
+        "editor.tabSize": 2,
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+
+    // Spell Checking
     "cSpell.userWords": [
+        "devkit",
+        "dotnettools",
         "hexeditor"
-    ]
+    ],
 }
